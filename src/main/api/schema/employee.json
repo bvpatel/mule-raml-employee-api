@@ -1,0 +1,10 @@
+{
+	"description": "Employee Details",
+	"properties": {
+		"employeeID": { "type": "integer" },
+		"firstname": { "type": "string" },
+		"lastname": { "type": "string" },
+		"phone": { "type": "integer" },
+		"dateofbirth": { "type": "string" }
+	}
+}

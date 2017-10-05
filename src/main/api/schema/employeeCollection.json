@@ -1,0 +1,3 @@
+{
+	"employees": [{ "$ref": "#/employee.json" }]
+}

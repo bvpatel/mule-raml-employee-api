@@ -1,0 +1,43 @@
+#%RAML 0.8
+title: Employee APIs
+schemas:
+  - employee: !include schema/employee.json
+  - employeeCollection: !include schema/employeeCollection.json
+
+/employees:
+  description: Employees Details
+    
+  post:
+    description: Add a new Employee
+    body: 
+     application/json:
+      example: |
+       {
+         "phone": "(555)555-5555",
+         "lastname": "Smith",
+         "firstname": "John",
+         "dateofbirth": "1980-01-31"
+        }
+    responses:
+     200:
+      body:
+        application/json:
+         schema: |
+          {
+            "employeeID": 18
+          }
+    
+  /{employeeID}:
+    description: A single employee details
+    uriParameters:
+      employeeID:
+        description: Employee ID
+        type: integer
+        
+    get:
+      description: View a single employee details by Employee ID
+      responses:
+        200:
+          body:
+            application/json:
+              schema: employee
