@@ -14,8 +14,8 @@ Tools used
 MySQL settings
 ----------------
 
-A MySQL connection at `localhost:3306` is [configured]() by default with the following settings:
+A MySQL connection at `localhost:3306` is [configured](https://github.com/bvpatel/mule-raml-employee-api/blob/master/src/main/app/employee_apis.xml) by default with the following settings:
  * Username: root
  * Password: root
 
-Tables can be created by running the [DDL script]().
+Tables can be created by running the [DDL script](https://github.com/bvpatel/mule-raml-employee-api/blob/master/src/main/resources/ddl.sql).
