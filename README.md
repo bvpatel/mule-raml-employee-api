@@ -31,13 +31,13 @@ Getting started
 ----------------------
 1. Clone project
    ```sh
-     git clone git@github.com:bvpatel/mule-raml-employee-api.git
+   git clone git@github.com:bvpatel/mule-raml-employee-api.git
    ```
 2. MySQL should be up and running 
 3. Update MySQL configuration in this file(mule-raml-employee-api/src/main/app/employee_apis.xml) 
 4. Run DDL script using MySQL user. e.g.
    ```sh
-     mysql -u root -proot < mule-raml-employee-api/src/main/resources/ddl.sql
+   mysql -u root -proot < mule-raml-employee-api/src/main/resources/ddl.sql
    ```
 5. Import project in AnyPoint Studio 
 6. Goto "src/main/api"
