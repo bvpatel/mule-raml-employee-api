@@ -36,7 +36,7 @@ Getting started
 2. MySQL should be up and running 
 3. Update MySQL configuration in this file(mule-raml-employee-api/src/main/app/employee_apis.xml) 
 4. Run DDL script using MySQL user. e.g.
-```sh
+   ```sh
      mysql -u root -proot < mule-raml-employee-api/src/main/resources/ddl.sql
    ```
 5. Import project in AnyPoint Studio 
